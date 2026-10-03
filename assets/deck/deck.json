@@ -1,0 +1,1423 @@
+{
+  "id": "elev8mi-tarot",
+  "name": "ELEV8MI Tarot",
+  "version": "1",
+  "description": "78-card ELEV8MI deck: recolored public-domain 1909-1910 Rider-Waite-Smith art (Pamela Colman Smith) in a custom ELEV8MI frame.",
+  "basePath": "assets/deck/",
+  "size": {
+    "width": 600,
+    "height": 1050
+  },
+  "back": {
+    "id": "back",
+    "webp": "assets/deck/back.webp",
+    "jpg": "assets/deck/back.jpg"
+  },
+  "fields_note": "cards[] is in the same order as window.Elev8TarotDeck (tarot-deck.js); index matches its index field and id matches Elev8Deck.fileName(card). number: majors 0-21, minors 1-14 (1 ace ... 10 ten, 11 page, 12 knight, 13 queen, 14 king). Meanings are copied from tarot-deck.js so the site text and manifest agree.",
+  "cards": [
+    {
+      "id": "major-00-the-fool",
+      "index": 0,
+      "name": "The Fool",
+      "arcana": "major",
+      "suit": null,
+      "number": 0,
+      "numeral": "0",
+      "rank": null,
+      "webp": "assets/deck/major-00-the-fool.webp",
+      "jpg": "assets/deck/major-00-the-fool.jpg",
+      "upright": "Beginnings, trust, a leap taken before the map is finished.",
+      "reversed": "Hesitation, recklessness, or a leap you are not ready to name.",
+      "source": {
+        "file": "RWS_Tarot_00_Fool.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_00_Fool.jpg"
+      }
+    },
+    {
+      "id": "major-01-the-magician",
+      "index": 1,
+      "name": "The Magician",
+      "arcana": "major",
+      "suit": null,
+      "number": 1,
+      "numeral": "I",
+      "rank": null,
+      "webp": "assets/deck/major-01-the-magician.webp",
+      "jpg": "assets/deck/major-01-the-magician.jpg",
+      "upright": "Will, skill, and the tools already in your hands.",
+      "reversed": "Scattered focus, unused talent, or talk without the working.",
+      "source": {
+        "file": "RWS_Tarot_01_Magician.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_01_Magician.jpg"
+      }
+    },
+    {
+      "id": "major-02-the-high-priestess",
+      "index": 2,
+      "name": "The High Priestess",
+      "arcana": "major",
+      "suit": null,
+      "number": 2,
+      "numeral": "II",
+      "rank": null,
+      "webp": "assets/deck/major-02-the-high-priestess.webp",
+      "jpg": "assets/deck/major-02-the-high-priestess.jpg",
+      "upright": "Hidden knowledge, intuition, what is known but not yet said.",
+      "reversed": "Ignored instinct, secrets, or noise covering a quiet truth.",
+      "source": {
+        "file": "RWS_Tarot_02_High_Priestess.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_02_High_Priestess.jpg"
+      }
+    },
+    {
+      "id": "major-03-the-empress",
+      "index": 3,
+      "name": "The Empress",
+      "arcana": "major",
+      "suit": null,
+      "number": 3,
+      "numeral": "III",
+      "rank": null,
+      "webp": "assets/deck/major-03-the-empress.webp",
+      "jpg": "assets/deck/major-03-the-empress.jpg",
+      "upright": "Abundance, care, creative growth, the body as oracle.",
+      "reversed": "Depletion, overgiving, or a harvest delayed.",
+      "source": {
+        "file": "RWS_Tarot_03_Empress.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_03_Empress.jpg"
+      }
+    },
+    {
+      "id": "major-04-the-emperor",
+      "index": 4,
+      "name": "The Emperor",
+      "arcana": "major",
+      "suit": null,
+      "number": 4,
+      "numeral": "IV",
+      "rank": null,
+      "webp": "assets/deck/major-04-the-emperor.webp",
+      "jpg": "assets/deck/major-04-the-emperor.jpg",
+      "upright": "Structure, boundaries, a throne you are ready to occupy.",
+      "reversed": "Rigidity, control, or authority that no longer fits.",
+      "source": {
+        "file": "RWS_Tarot_04_Emperor.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_04_Emperor.jpg"
+      }
+    },
+    {
+      "id": "major-05-the-hierophant",
+      "index": 5,
+      "name": "The Hierophant",
+      "arcana": "major",
+      "suit": null,
+      "number": 5,
+      "numeral": "V",
+      "rank": null,
+      "webp": "assets/deck/major-05-the-hierophant.webp",
+      "jpg": "assets/deck/major-05-the-hierophant.jpg",
+      "upright": "Tradition, a teacher, a practice with a lineage.",
+      "reversed": "Blind obedience, or a ritual that has gone hollow.",
+      "source": {
+        "file": "RWS_Tarot_05_Hierophant.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_05_Hierophant.jpg"
+      }
+    },
+    {
+      "id": "major-06-the-lovers",
+      "index": 6,
+      "name": "The Lovers",
+      "arcana": "major",
+      "suit": null,
+      "number": 6,
+      "numeral": "VI",
+      "rank": null,
+      "webp": "assets/deck/major-06-the-lovers.webp",
+      "jpg": "assets/deck/major-06-the-lovers.jpg",
+      "upright": "A true choice, alignment, union of values.",
+      "reversed": "Misalignment, temptation, a choice avoided.",
+      "source": {
+        "file": "RWS_Tarot_06_Lovers.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_06_Lovers.jpg"
+      }
+    },
+    {
+      "id": "major-07-the-chariot",
+      "index": 7,
+      "name": "The Chariot",
+      "arcana": "major",
+      "suit": null,
+      "number": 7,
+      "numeral": "VII",
+      "rank": null,
+      "webp": "assets/deck/major-07-the-chariot.webp",
+      "jpg": "assets/deck/major-07-the-chariot.jpg",
+      "upright": "Will in motion, a victory that asks for a steady hand.",
+      "reversed": "Force without direction, or a stalled campaign.",
+      "source": {
+        "file": "RWS_Tarot_07_Chariot.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_07_Chariot.jpg"
+      }
+    },
+    {
+      "id": "major-08-strength",
+      "index": 8,
+      "name": "Strength",
+      "arcana": "major",
+      "suit": null,
+      "number": 8,
+      "numeral": "VIII",
+      "rank": null,
+      "webp": "assets/deck/major-08-strength.webp",
+      "jpg": "assets/deck/major-08-strength.jpg",
+      "upright": "Quiet courage, patience with the animal self.",
+      "reversed": "Self-doubt, force used where softness would open the door.",
+      "source": {
+        "file": "RWS_Tarot_08_Strength.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_08_Strength.jpg"
+      }
+    },
+    {
+      "id": "major-09-the-hermit",
+      "index": 9,
+      "name": "The Hermit",
+      "arcana": "major",
+      "suit": null,
+      "number": 9,
+      "numeral": "IX",
+      "rank": null,
+      "webp": "assets/deck/major-09-the-hermit.webp",
+      "jpg": "assets/deck/major-09-the-hermit.jpg",
+      "upright": "Solitude, a lantern, the answer found by walking alone.",
+      "reversed": "Isolation, withdrawal past the point of wisdom.",
+      "source": {
+        "file": "RWS_Tarot_09_Hermit.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_09_Hermit.jpg"
+      }
+    },
+    {
+      "id": "major-10-wheel-of-fortune",
+      "index": 10,
+      "name": "Wheel of Fortune",
+      "arcana": "major",
+      "suit": null,
+      "number": 10,
+      "numeral": "X",
+      "rank": null,
+      "webp": "assets/deck/major-10-wheel-of-fortune.webp",
+      "jpg": "assets/deck/major-10-wheel-of-fortune.jpg",
+      "upright": "A turn in the cycle. Fate moves; so can you.",
+      "reversed": "Resistance to change, or luck you are not ready to meet.",
+      "source": {
+        "file": "RWS_Tarot_10_Wheel_of_Fortune.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_10_Wheel_of_Fortune.jpg"
+      }
+    },
+    {
+      "id": "major-11-justice",
+      "index": 11,
+      "name": "Justice",
+      "arcana": "major",
+      "suit": null,
+      "number": 11,
+      "numeral": "XI",
+      "rank": null,
+      "webp": "assets/deck/major-11-justice.webp",
+      "jpg": "assets/deck/major-11-justice.jpg",
+      "upright": "Cause and consequence, a clean accounting.",
+      "reversed": "Avoided truth, imbalance, a verdict still unpaid.",
+      "source": {
+        "file": "RWS_Tarot_11_Justice.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_11_Justice.jpg"
+      }
+    },
+    {
+      "id": "major-12-the-hanged-one",
+      "index": 12,
+      "name": "The Hanged One",
+      "arcana": "major",
+      "suit": null,
+      "number": 12,
+      "numeral": "XII",
+      "rank": null,
+      "webp": "assets/deck/major-12-the-hanged-one.webp",
+      "jpg": "assets/deck/major-12-the-hanged-one.jpg",
+      "upright": "Surrender, a new angle, wisdom bought by waiting.",
+      "reversed": "Stalling, martyrdom, a pause that has become a trap.",
+      "source": {
+        "file": "RWS_Tarot_12_Hanged_Man.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_12_Hanged_Man.jpg"
+      }
+    },
+    {
+      "id": "major-13-death",
+      "index": 13,
+      "name": "Death",
+      "arcana": "major",
+      "suit": null,
+      "number": 13,
+      "numeral": "XIII",
+      "rank": null,
+      "webp": "assets/deck/major-13-death.webp",
+      "jpg": "assets/deck/major-13-death.jpg",
+      "upright": "An ending that clears the path. Compost, not catastrophe.",
+      "reversed": "Clinging, fear of the necessary close.",
+      "source": {
+        "file": "RWS_Tarot_13_Death.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_13_Death.jpg"
+      }
+    },
+    {
+      "id": "major-14-temperance",
+      "index": 14,
+      "name": "Temperance",
+      "arcana": "major",
+      "suit": null,
+      "number": 14,
+      "numeral": "XIV",
+      "rank": null,
+      "webp": "assets/deck/major-14-temperance.webp",
+      "jpg": "assets/deck/major-14-temperance.jpg",
+      "upright": "Blend, pace, the middle way that still moves.",
+      "reversed": "Excess, impatience, ingredients that will not mix yet.",
+      "source": {
+        "file": "RWS_Tarot_14_Temperance.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_14_Temperance.jpg"
+      }
+    },
+    {
+      "id": "major-15-the-devil",
+      "index": 15,
+      "name": "The Devil",
+      "arcana": "major",
+      "suit": null,
+      "number": 15,
+      "numeral": "XV",
+      "rank": null,
+      "webp": "assets/deck/major-15-the-devil.webp",
+      "jpg": "assets/deck/major-15-the-devil.jpg",
+      "upright": "Bond, appetite, a chain you can see and therefore loosen.",
+      "reversed": "Denial of the pattern, or a bargain you keep renewing.",
+      "source": {
+        "file": "RWS_Tarot_15_Devil.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_15_Devil.jpg"
+      }
+    },
+    {
+      "id": "major-16-the-tower",
+      "index": 16,
+      "name": "The Tower",
+      "arcana": "major",
+      "suit": null,
+      "number": 16,
+      "numeral": "XVI",
+      "rank": null,
+      "webp": "assets/deck/major-16-the-tower.webp",
+      "jpg": "assets/deck/major-16-the-tower.jpg",
+      "upright": "Sudden truth. The false structure comes down.",
+      "reversed": "Delayed collapse, or rebuilding on the same cracked stone.",
+      "source": {
+        "file": "RWS_Tarot_16_Tower.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_16_Tower.jpg"
+      }
+    },
+    {
+      "id": "major-17-the-star",
+      "index": 17,
+      "name": "The Star",
+      "arcana": "major",
+      "suit": null,
+      "number": 17,
+      "numeral": "XVII",
+      "rank": null,
+      "webp": "assets/deck/major-17-the-star.webp",
+      "jpg": "assets/deck/major-17-the-star.jpg",
+      "upright": "Hope after the storm, a clear night, healing in public view.",
+      "reversed": "Dim faith, disconnection from the wish you still hold.",
+      "source": {
+        "file": "RWS_Tarot_17_Star.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_17_Star.jpg"
+      }
+    },
+    {
+      "id": "major-18-the-moon",
+      "index": 18,
+      "name": "The Moon",
+      "arcana": "major",
+      "suit": null,
+      "number": 18,
+      "numeral": "XVIII",
+      "rank": null,
+      "webp": "assets/deck/major-18-the-moon.webp",
+      "jpg": "assets/deck/major-18-the-moon.jpg",
+      "upright": "Dreams, fog, the path that is real but not yet lit.",
+      "reversed": "Anxiety, illusion, a fear wearing the mask of instinct.",
+      "source": {
+        "file": "RWS_Tarot_18_Moon.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_18_Moon.jpg"
+      }
+    },
+    {
+      "id": "major-19-the-sun",
+      "index": 19,
+      "name": "The Sun",
+      "arcana": "major",
+      "suit": null,
+      "number": 19,
+      "numeral": "XIX",
+      "rank": null,
+      "webp": "assets/deck/major-19-the-sun.webp",
+      "jpg": "assets/deck/major-19-the-sun.jpg",
+      "upright": "Vitality, clarity, a yes the room can feel.",
+      "reversed": "Dimmed joy, burnout, success you will not let yourself have.",
+      "source": {
+        "file": "RWS_Tarot_19_Sun.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_19_Sun.jpg"
+      }
+    },
+    {
+      "id": "major-20-judgement",
+      "index": 20,
+      "name": "Judgement",
+      "arcana": "major",
+      "suit": null,
+      "number": 20,
+      "numeral": "XX",
+      "rank": null,
+      "webp": "assets/deck/major-20-judgement.webp",
+      "jpg": "assets/deck/major-20-judgement.jpg",
+      "upright": "A calling, a reckoning, the self rising to answer.",
+      "reversed": "Self-judgment, a summons ignored.",
+      "source": {
+        "file": "RWS_Tarot_20_Judgement.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_20_Judgement.jpg"
+      }
+    },
+    {
+      "id": "major-21-the-world",
+      "index": 21,
+      "name": "The World",
+      "arcana": "major",
+      "suit": null,
+      "number": 21,
+      "numeral": "XXI",
+      "rank": null,
+      "webp": "assets/deck/major-21-the-world.webp",
+      "jpg": "assets/deck/major-21-the-world.jpg",
+      "upright": "Completion, arrival, the dance at the end of a cycle.",
+      "reversed": "Loose ends, a finish line you keep moving.",
+      "source": {
+        "file": "RWS_Tarot_21_World.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_21_World.jpg"
+      }
+    },
+    {
+      "id": "wands-01-ace",
+      "index": 22,
+      "name": "Ace of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 1,
+      "numeral": "I",
+      "rank": "ace",
+      "webp": "assets/deck/wands-01-ace.webp",
+      "jpg": "assets/deck/wands-01-ace.jpg",
+      "upright": "A spark of inspiration invites a creative beginning.",
+      "reversed": "A promising idea needs time, energy or a clearer purpose.",
+      "source": {
+        "file": "Wands01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands01.jpg"
+      }
+    },
+    {
+      "id": "wands-02-two",
+      "index": 23,
+      "name": "Two of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 2,
+      "numeral": "II",
+      "rank": "two",
+      "webp": "assets/deck/wands-02-two.webp",
+      "jpg": "assets/deck/wands-02-two.jpg",
+      "upright": "Consider your wider possibilities before choosing a direction.",
+      "reversed": "Fear of change may be keeping your plans too small.",
+      "source": {
+        "file": "Wands02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands02.jpg"
+      }
+    },
+    {
+      "id": "wands-03-three",
+      "index": 24,
+      "name": "Three of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 3,
+      "numeral": "III",
+      "rank": "three",
+      "webp": "assets/deck/wands-03-three.webp",
+      "jpg": "assets/deck/wands-03-three.jpg",
+      "upright": "Your first efforts open the way to expansion and new horizons.",
+      "reversed": "Delays invite you to revisit expectations and practical support.",
+      "source": {
+        "file": "Wands03.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands03.jpg"
+      }
+    },
+    {
+      "id": "wands-04-four",
+      "index": 25,
+      "name": "Four of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 4,
+      "numeral": "IV",
+      "rank": "four",
+      "webp": "assets/deck/wands-04-four.webp",
+      "jpg": "assets/deck/wands-04-four.jpg",
+      "upright": "Celebrate stability, belonging and a milestone shared with others.",
+      "reversed": "An unsettled foundation or strained group dynamic needs care.",
+      "source": {
+        "file": "Wands04.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands04.jpg"
+      }
+    },
+    {
+      "id": "wands-05-five",
+      "index": 26,
+      "name": "Five of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 5,
+      "numeral": "V",
+      "rank": "five",
+      "webp": "assets/deck/wands-05-five.webp",
+      "jpg": "assets/deck/wands-05-five.jpg",
+      "upright": "Different ambitions create friction; channel competition into learning.",
+      "reversed": "Step away from needless conflict, but address unresolved tension.",
+      "source": {
+        "file": "Wands05.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands05.jpg"
+      }
+    },
+    {
+      "id": "wands-06-six",
+      "index": 27,
+      "name": "Six of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 6,
+      "numeral": "VI",
+      "rank": "six",
+      "webp": "assets/deck/wands-06-six.webp",
+      "jpg": "assets/deck/wands-06-six.jpg",
+      "upright": "Progress earns recognition; receive it without losing perspective.",
+      "reversed": "Seek confidence within rather than depending on approval.",
+      "source": {
+        "file": "Wands06.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands06.jpg"
+      }
+    },
+    {
+      "id": "wands-07-seven",
+      "index": 28,
+      "name": "Seven of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 7,
+      "numeral": "VII",
+      "rank": "seven",
+      "webp": "assets/deck/wands-07-seven.webp",
+      "jpg": "assets/deck/wands-07-seven.jpg",
+      "upright": "Stand by your values while choosing your battles carefully.",
+      "reversed": "Feeling overwhelmed may call for firmer boundaries or support.",
+      "source": {
+        "file": "Wands07.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands07.jpg"
+      }
+    },
+    {
+      "id": "wands-08-eight",
+      "index": 29,
+      "name": "Eight of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 8,
+      "numeral": "VIII",
+      "rank": "eight",
+      "webp": "assets/deck/wands-08-eight.webp",
+      "jpg": "assets/deck/wands-08-eight.jpg",
+      "upright": "Events gain momentum; a message or opportunity may arrive quickly.",
+      "reversed": "Rushing or crossed signals ask for clearer timing and communication.",
+      "source": {
+        "file": "Wands08.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands08.jpg"
+      }
+    },
+    {
+      "id": "wands-09-nine",
+      "index": 30,
+      "name": "Nine of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 9,
+      "numeral": "IX",
+      "rank": "nine",
+      "webp": "assets/deck/wands-09-nine.webp",
+      "jpg": "assets/deck/wands-09-nine.jpg",
+      "upright": "Resilience carries you forward; protect your energy after a long effort.",
+      "reversed": "Exhaustion can make every challenge feel like a threat; rest and reassess.",
+      "source": {
+        "file": "Wands09.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands09.jpg"
+      }
+    },
+    {
+      "id": "wands-10-ten",
+      "index": 31,
+      "name": "Ten of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 10,
+      "numeral": "X",
+      "rank": "ten",
+      "webp": "assets/deck/wands-10-ten.webp",
+      "jpg": "assets/deck/wands-10-ten.jpg",
+      "upright": "Too much responsibility has become a burden; consider what you can delegate.",
+      "reversed": "Release obligations that are no longer yours to carry.",
+      "source": {
+        "file": "Wands10.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands10.jpg"
+      }
+    },
+    {
+      "id": "wands-11-page",
+      "index": 32,
+      "name": "Page of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 11,
+      "numeral": "XI",
+      "rank": "page",
+      "webp": "assets/deck/wands-11-page.webp",
+      "jpg": "assets/deck/wands-11-page.jpg",
+      "upright": "Curiosity and enthusiasm invite exploration of a new idea.",
+      "reversed": "An exciting impulse needs follow-through rather than another fresh start.",
+      "source": {
+        "file": "Wands11.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands11.jpg"
+      }
+    },
+    {
+      "id": "wands-12-knight",
+      "index": 33,
+      "name": "Knight of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 12,
+      "numeral": "XII",
+      "rank": "knight",
+      "webp": "assets/deck/wands-12-knight.webp",
+      "jpg": "assets/deck/wands-12-knight.jpg",
+      "upright": "Bold action and adventurous energy can move a plan forward.",
+      "reversed": "Impulsiveness or inconsistent effort may undermine your direction.",
+      "source": {
+        "file": "Wands12.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands12.jpg"
+      }
+    },
+    {
+      "id": "wands-13-queen",
+      "index": 34,
+      "name": "Queen of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 13,
+      "numeral": "XIII",
+      "rank": "queen",
+      "webp": "assets/deck/wands-13-queen.webp",
+      "jpg": "assets/deck/wands-13-queen.jpg",
+      "upright": "Warm confidence and independence help your creativity flourish.",
+      "reversed": "Comparison or self-doubt may be dimming your own voice.",
+      "source": {
+        "file": "Wands13.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands13.jpg"
+      }
+    },
+    {
+      "id": "wands-14-king",
+      "index": 35,
+      "name": "King of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 14,
+      "numeral": "XIV",
+      "rank": "king",
+      "webp": "assets/deck/wands-14-king.webp",
+      "jpg": "assets/deck/wands-14-king.jpg",
+      "upright": "Lead with vision, courage and a clear sense of purpose.",
+      "reversed": "Impatience or domination may be crowding out collaboration.",
+      "source": {
+        "file": "Wands14.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wands14.jpg"
+      }
+    },
+    {
+      "id": "cups-01-ace",
+      "index": 36,
+      "name": "Ace of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 1,
+      "numeral": "I",
+      "rank": "ace",
+      "webp": "assets/deck/cups-01-ace.webp",
+      "jpg": "assets/deck/cups-01-ace.jpg",
+      "upright": "Emotional openness offers a new connection or creative renewal.",
+      "reversed": "Make space for feelings that have been held back or neglected.",
+      "source": {
+        "file": "Cups01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups01.jpg"
+      }
+    },
+    {
+      "id": "cups-02-two",
+      "index": 37,
+      "name": "Two of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 2,
+      "numeral": "II",
+      "rank": "two",
+      "webp": "assets/deck/cups-02-two.webp",
+      "jpg": "assets/deck/cups-02-two.jpg",
+      "upright": "Mutual respect and connection invite a balanced partnership.",
+      "reversed": "A relationship needs honest attention to imbalance or disconnection.",
+      "source": {
+        "file": "Cups02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups02.jpg"
+      }
+    },
+    {
+      "id": "cups-03-three",
+      "index": 38,
+      "name": "Three of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 3,
+      "numeral": "III",
+      "rank": "three",
+      "webp": "assets/deck/cups-03-three.webp",
+      "jpg": "assets/deck/cups-03-three.jpg",
+      "upright": "Friendship and community bring joy worth celebrating.",
+      "reversed": "Social strain or excess may be asking for healthier boundaries.",
+      "source": {
+        "file": "Cups03.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups03.jpg"
+      }
+    },
+    {
+      "id": "cups-04-four",
+      "index": 39,
+      "name": "Four of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 4,
+      "numeral": "IV",
+      "rank": "four",
+      "webp": "assets/deck/cups-04-four.webp",
+      "jpg": "assets/deck/cups-04-four.jpg",
+      "upright": "Pause to notice an offer you may be overlooking through disengagement.",
+      "reversed": "Renewed interest may help you reconnect with what matters.",
+      "source": {
+        "file": "Cups04.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups04.jpg"
+      }
+    },
+    {
+      "id": "cups-05-five",
+      "index": 40,
+      "name": "Five of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 5,
+      "numeral": "V",
+      "rank": "five",
+      "webp": "assets/deck/cups-05-five.webp",
+      "jpg": "assets/deck/cups-05-five.jpg",
+      "upright": "Acknowledge disappointment while noticing what remains available.",
+      "reversed": "Healing begins as you loosen the grip of regret.",
+      "source": {
+        "file": "Cups05.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups05.jpg"
+      }
+    },
+    {
+      "id": "cups-06-six",
+      "index": 41,
+      "name": "Six of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 6,
+      "numeral": "VI",
+      "rank": "six",
+      "webp": "assets/deck/cups-06-six.webp",
+      "jpg": "assets/deck/cups-06-six.jpg",
+      "upright": "A memory, kindness or familiar connection offers perspective.",
+      "reversed": "The past may be limiting your ability to meet the present.",
+      "source": {
+        "file": "Cups06.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups06.jpg"
+      }
+    },
+    {
+      "id": "cups-07-seven",
+      "index": 42,
+      "name": "Seven of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 7,
+      "numeral": "VII",
+      "rank": "seven",
+      "webp": "assets/deck/cups-07-seven.webp",
+      "jpg": "assets/deck/cups-07-seven.jpg",
+      "upright": "Many possibilities appear; distinguish imagination from a workable choice.",
+      "reversed": "Clarity grows when you narrow the options and act deliberately.",
+      "source": {
+        "file": "Cups07.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups07.jpg"
+      }
+    },
+    {
+      "id": "cups-08-eight",
+      "index": 43,
+      "name": "Eight of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 8,
+      "numeral": "VIII",
+      "rank": "eight",
+      "webp": "assets/deck/cups-08-eight.webp",
+      "jpg": "assets/deck/cups-08-eight.jpg",
+      "upright": "Leave behind what no longer fulfills you, even if it once did.",
+      "reversed": "Ask whether fear or unfinished feelings are keeping you in place.",
+      "source": {
+        "file": "Cups08.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups08.jpg"
+      }
+    },
+    {
+      "id": "cups-09-nine",
+      "index": 44,
+      "name": "Nine of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 9,
+      "numeral": "IX",
+      "rank": "nine",
+      "webp": "assets/deck/cups-09-nine.webp",
+      "jpg": "assets/deck/cups-09-nine.jpg",
+      "upright": "Appreciate satisfaction and what you have already achieved.",
+      "reversed": "A wish fulfilled may not address the deeper need underneath it.",
+      "source": {
+        "file": "Cups09.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups09.jpg"
+      }
+    },
+    {
+      "id": "cups-10-ten",
+      "index": 45,
+      "name": "Ten of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 10,
+      "numeral": "X",
+      "rank": "ten",
+      "webp": "assets/deck/cups-10-ten.webp",
+      "jpg": "assets/deck/cups-10-ten.jpg",
+      "upright": "Shared emotional wellbeing and belonging offer a sense of harmony.",
+      "reversed": "Look honestly at gaps between an ideal relationship and daily reality.",
+      "source": {
+        "file": "Cups10.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups10.jpg"
+      }
+    },
+    {
+      "id": "cups-11-page",
+      "index": 46,
+      "name": "Page of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 11,
+      "numeral": "XI",
+      "rank": "page",
+      "webp": "assets/deck/cups-11-page.webp",
+      "jpg": "assets/deck/cups-11-page.jpg",
+      "upright": "A tender message or intuitive idea invites an open response.",
+      "reversed": "Sensitivity needs care; avoid confusing a hope with a promise.",
+      "source": {
+        "file": "Cups11.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups11.jpg"
+      }
+    },
+    {
+      "id": "cups-12-knight",
+      "index": 47,
+      "name": "Knight of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 12,
+      "numeral": "XII",
+      "rank": "knight",
+      "webp": "assets/deck/cups-12-knight.webp",
+      "jpg": "assets/deck/cups-12-knight.jpg",
+      "upright": "An imaginative or heartfelt approach can deepen a connection.",
+      "reversed": "Romantic expectations or shifting moods may need grounding.",
+      "source": {
+        "file": "Cups12.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups12.jpg"
+      }
+    },
+    {
+      "id": "cups-13-queen",
+      "index": 48,
+      "name": "Queen of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 13,
+      "numeral": "XIII",
+      "rank": "queen",
+      "webp": "assets/deck/cups-13-queen.webp",
+      "jpg": "assets/deck/cups-13-queen.jpg",
+      "upright": "Compassion and intuition guide you when supported by clear boundaries.",
+      "reversed": "Care for your own emotional needs rather than absorbing everyone else’s.",
+      "source": {
+        "file": "Cups13.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups13.jpg"
+      }
+    },
+    {
+      "id": "cups-14-king",
+      "index": 49,
+      "name": "King of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 14,
+      "numeral": "XIV",
+      "rank": "king",
+      "webp": "assets/deck/cups-14-king.webp",
+      "jpg": "assets/deck/cups-14-king.jpg",
+      "upright": "Emotional steadiness helps you respond with both kindness and judgment.",
+      "reversed": "Notice where suppressed feelings or emotional control are distorting a response.",
+      "source": {
+        "file": "Cups14.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cups14.jpg"
+      }
+    },
+    {
+      "id": "swords-01-ace",
+      "index": 50,
+      "name": "Ace of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 1,
+      "numeral": "I",
+      "rank": "ace",
+      "webp": "assets/deck/swords-01-ace.webp",
+      "jpg": "assets/deck/swords-01-ace.jpg",
+      "upright": "A clear insight or honest conversation cuts through confusion.",
+      "reversed": "Seek better information before acting on an uncertain conclusion.",
+      "source": {
+        "file": "Swords01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords01.jpg"
+      }
+    },
+    {
+      "id": "swords-02-two",
+      "index": 51,
+      "name": "Two of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 2,
+      "numeral": "II",
+      "rank": "two",
+      "webp": "assets/deck/swords-02-two.webp",
+      "jpg": "assets/deck/swords-02-two.jpg",
+      "upright": "A difficult decision asks you to face what has been held at a distance.",
+      "reversed": "Indecision may lift when you acknowledge the uncomfortable truth.",
+      "source": {
+        "file": "Swords02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords02.jpg"
+      }
+    },
+    {
+      "id": "swords-03-three",
+      "index": 52,
+      "name": "Three of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 3,
+      "numeral": "III",
+      "rank": "three",
+      "webp": "assets/deck/swords-03-three.webp",
+      "jpg": "assets/deck/swords-03-three.jpg",
+      "upright": "Painful truth or disappointment deserves honest recognition and care.",
+      "reversed": "Healing is possible as you process hurt rather than repeatedly reopening it.",
+      "source": {
+        "file": "Swords03.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords03.jpg"
+      }
+    },
+    {
+      "id": "swords-04-four",
+      "index": 53,
+      "name": "Four of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 4,
+      "numeral": "IV",
+      "rank": "four",
+      "webp": "assets/deck/swords-04-four.webp",
+      "jpg": "assets/deck/swords-04-four.jpg",
+      "upright": "Rest and mental distance are part of recovery, not a failure to act.",
+      "reversed": "If you are returning to activity, do so before exhaustion drives the pace.",
+      "source": {
+        "file": "Swords04.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords04.jpg"
+      }
+    },
+    {
+      "id": "swords-05-five",
+      "index": 54,
+      "name": "Five of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 5,
+      "numeral": "V",
+      "rank": "five",
+      "webp": "assets/deck/swords-05-five.webp",
+      "jpg": "assets/deck/swords-05-five.jpg",
+      "upright": "Winning an argument may cost more than it gives; consider the aftermath.",
+      "reversed": "Reconciliation begins with accountability and a willingness to stop fighting.",
+      "source": {
+        "file": "Swords05.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords05.jpg"
+      }
+    },
+    {
+      "id": "swords-06-six",
+      "index": 55,
+      "name": "Six of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 6,
+      "numeral": "VI",
+      "rank": "six",
+      "webp": "assets/deck/swords-06-six.webp",
+      "jpg": "assets/deck/swords-06-six.jpg",
+      "upright": "A transition carries you toward calmer conditions, even with sadness attached.",
+      "reversed": "Unfinished concerns may be making it hard to move beyond an old situation.",
+      "source": {
+        "file": "Swords06.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords06.jpg"
+      }
+    },
+    {
+      "id": "swords-07-seven",
+      "index": 56,
+      "name": "Seven of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 7,
+      "numeral": "VII",
+      "rank": "seven",
+      "webp": "assets/deck/swords-07-seven.webp",
+      "jpg": "assets/deck/swords-07-seven.jpg",
+      "upright": "Strategy matters; examine secrecy, avoidance and the consequences of your choices.",
+      "reversed": "Honesty or an admission may offer a cleaner path than concealment.",
+      "source": {
+        "file": "Swords07.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords07.jpg"
+      }
+    },
+    {
+      "id": "swords-08-eight",
+      "index": 57,
+      "name": "Eight of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 8,
+      "numeral": "VIII",
+      "rank": "eight",
+      "webp": "assets/deck/swords-08-eight.webp",
+      "jpg": "assets/deck/swords-08-eight.jpg",
+      "upright": "A limiting belief may be making your options seem smaller than they are.",
+      "reversed": "A new perspective helps you recognize freedom that was hidden by fear.",
+      "source": {
+        "file": "Swords08.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords08.jpg"
+      }
+    },
+    {
+      "id": "swords-09-nine",
+      "index": 58,
+      "name": "Nine of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 9,
+      "numeral": "IX",
+      "rank": "nine",
+      "webp": "assets/deck/swords-09-nine.webp",
+      "jpg": "assets/deck/swords-09-nine.jpg",
+      "upright": "Anxiety and rumination need compassion, support and a reality check.",
+      "reversed": "Sharing a worry may loosen isolation and make recovery possible.",
+      "source": {
+        "file": "Swords09.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords09.jpg"
+      }
+    },
+    {
+      "id": "swords-10-ten",
+      "index": 59,
+      "name": "Ten of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 10,
+      "numeral": "X",
+      "rank": "ten",
+      "webp": "assets/deck/swords-10-ten.webp",
+      "jpg": "assets/deck/swords-10-ten.jpg",
+      "upright": "A painful ending marks a point after which recovery can begin.",
+      "reversed": "The worst may be passing; resist rebuilding the same harmful pattern.",
+      "source": {
+        "file": "Swords10.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords10.jpg"
+      }
+    },
+    {
+      "id": "swords-11-page",
+      "index": 60,
+      "name": "Page of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 11,
+      "numeral": "XI",
+      "rank": "page",
+      "webp": "assets/deck/swords-11-page.webp",
+      "jpg": "assets/deck/swords-11-page.jpg",
+      "upright": "Curiosity and careful observation invite questions before conclusions.",
+      "reversed": "Avoid reacting to rumors, incomplete facts or words used carelessly.",
+      "source": {
+        "file": "Swords11.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords11.jpg"
+      }
+    },
+    {
+      "id": "swords-12-knight",
+      "index": 61,
+      "name": "Knight of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 12,
+      "numeral": "XII",
+      "rank": "knight",
+      "webp": "assets/deck/swords-12-knight.webp",
+      "jpg": "assets/deck/swords-12-knight.jpg",
+      "upright": "Direct action and intellectual conviction can cut through delay.",
+      "reversed": "Speed or aggression may be outrunning understanding.",
+      "source": {
+        "file": "Swords12.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords12.jpg"
+      }
+    },
+    {
+      "id": "swords-13-queen",
+      "index": 62,
+      "name": "Queen of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 13,
+      "numeral": "XIII",
+      "rank": "queen",
+      "webp": "assets/deck/swords-13-queen.webp",
+      "jpg": "assets/deck/swords-13-queen.jpg",
+      "upright": "Clear boundaries and honest discernment make space for a fair response.",
+      "reversed": "Sharp judgment may need more compassion or better context.",
+      "source": {
+        "file": "Swords13.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords13.jpg"
+      }
+    },
+    {
+      "id": "swords-14-king",
+      "index": 63,
+      "name": "King of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 14,
+      "numeral": "XIV",
+      "rank": "king",
+      "webp": "assets/deck/swords-14-king.webp",
+      "jpg": "assets/deck/swords-14-king.jpg",
+      "upright": "Use reason, integrity and responsibility to make a sound decision.",
+      "reversed": "Authority without fairness or openness can become rigid and harmful.",
+      "source": {
+        "file": "Swords14.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Swords14.jpg"
+      }
+    },
+    {
+      "id": "pentacles-01-ace",
+      "index": 64,
+      "name": "Ace of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 1,
+      "numeral": "I",
+      "rank": "ace",
+      "webp": "assets/deck/pentacles-01-ace.webp",
+      "jpg": "assets/deck/pentacles-01-ace.jpg",
+      "upright": "A practical opportunity invites a grounded beginning in work or resources.",
+      "reversed": "A promising opportunity needs preparation, timing or a realistic plan.",
+      "source": {
+        "file": "Pents01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents01.jpg"
+      }
+    },
+    {
+      "id": "pentacles-02-two",
+      "index": 65,
+      "name": "Two of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 2,
+      "numeral": "II",
+      "rank": "two",
+      "webp": "assets/deck/pentacles-02-two.webp",
+      "jpg": "assets/deck/pentacles-02-two.jpg",
+      "upright": "Balance changing demands with flexibility and clear priorities.",
+      "reversed": "Too many moving parts may require simplifying your commitments.",
+      "source": {
+        "file": "Pents02.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents02.jpg"
+      }
+    },
+    {
+      "id": "pentacles-03-three",
+      "index": 66,
+      "name": "Three of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 3,
+      "numeral": "III",
+      "rank": "three",
+      "webp": "assets/deck/pentacles-03-three.webp",
+      "jpg": "assets/deck/pentacles-03-three.jpg",
+      "upright": "Skilled collaboration and learning improve what you are building.",
+      "reversed": "Clarify roles and respect the expertise needed for shared work.",
+      "source": {
+        "file": "Pents03.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents03.jpg"
+      }
+    },
+    {
+      "id": "pentacles-04-four",
+      "index": 67,
+      "name": "Four of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 4,
+      "numeral": "IV",
+      "rank": "four",
+      "webp": "assets/deck/pentacles-04-four.webp",
+      "jpg": "assets/deck/pentacles-04-four.jpg",
+      "upright": "Security matters, but notice where holding tightly limits generosity or growth.",
+      "reversed": "Consider whether to loosen control or rebuild a sustainable boundary.",
+      "source": {
+        "file": "Pents04.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents04.jpg"
+      }
+    },
+    {
+      "id": "pentacles-05-five",
+      "index": 68,
+      "name": "Five of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 5,
+      "numeral": "V",
+      "rank": "five",
+      "webp": "assets/deck/pentacles-05-five.webp",
+      "jpg": "assets/deck/pentacles-05-five.jpg",
+      "upright": "Difficulty or exclusion calls for support; you do not have to face it alone.",
+      "reversed": "Help, recovery or a renewed sense of belonging may become available.",
+      "source": {
+        "file": "Pents05.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents05.jpg"
+      }
+    },
+    {
+      "id": "pentacles-06-six",
+      "index": 69,
+      "name": "Six of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 6,
+      "numeral": "VI",
+      "rank": "six",
+      "webp": "assets/deck/pentacles-06-six.webp",
+      "jpg": "assets/deck/pentacles-06-six.jpg",
+      "upright": "Giving and receiving work best with fairness and mutual dignity.",
+      "reversed": "Look for unequal power, hidden obligations or one-sided generosity.",
+      "source": {
+        "file": "Pents06.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents06.jpg"
+      }
+    },
+    {
+      "id": "pentacles-07-seven",
+      "index": 70,
+      "name": "Seven of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 7,
+      "numeral": "VII",
+      "rank": "seven",
+      "webp": "assets/deck/pentacles-07-seven.webp",
+      "jpg": "assets/deck/pentacles-07-seven.jpg",
+      "upright": "Patient investment asks you to evaluate progress before the next step.",
+      "reversed": "Reconsider where continued effort is producing too little return.",
+      "source": {
+        "file": "Pents07.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents07.jpg"
+      }
+    },
+    {
+      "id": "pentacles-08-eight",
+      "index": 71,
+      "name": "Eight of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 8,
+      "numeral": "VIII",
+      "rank": "eight",
+      "webp": "assets/deck/pentacles-08-eight.webp",
+      "jpg": "assets/deck/pentacles-08-eight.jpg",
+      "upright": "Practice, attention and steady work develop meaningful skill.",
+      "reversed": "Perfectionism or distracted work may be replacing genuine learning.",
+      "source": {
+        "file": "Pents08.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents08.jpg"
+      }
+    },
+    {
+      "id": "pentacles-09-nine",
+      "index": 72,
+      "name": "Nine of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 9,
+      "numeral": "IX",
+      "rank": "nine",
+      "webp": "assets/deck/pentacles-09-nine.webp",
+      "jpg": "assets/deck/pentacles-09-nine.jpg",
+      "upright": "Enjoy the independence and wellbeing built through your own efforts.",
+      "reversed": "Revisit what security means beyond appearances or constant achievement.",
+      "source": {
+        "file": "Pents09.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents09.jpg"
+      }
+    },
+    {
+      "id": "pentacles-10-ten",
+      "index": 73,
+      "name": "Ten of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 10,
+      "numeral": "X",
+      "rank": "ten",
+      "webp": "assets/deck/pentacles-10-ten.webp",
+      "jpg": "assets/deck/pentacles-10-ten.jpg",
+      "upright": "Long-term stability grows through shared resources, care and continuity.",
+      "reversed": "A family or financial structure may need a more sustainable agreement.",
+      "source": {
+        "file": "Pents10.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents10.jpg"
+      }
+    },
+    {
+      "id": "pentacles-11-page",
+      "index": 74,
+      "name": "Page of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 11,
+      "numeral": "XI",
+      "rank": "page",
+      "webp": "assets/deck/pentacles-11-page.webp",
+      "jpg": "assets/deck/pentacles-11-page.jpg",
+      "upright": "A practical goal invites study, planning and the first consistent step.",
+      "reversed": "An ambition needs a workable routine rather than indefinite preparation.",
+      "source": {
+        "file": "Pents11.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents11.jpg"
+      }
+    },
+    {
+      "id": "pentacles-12-knight",
+      "index": 75,
+      "name": "Knight of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 12,
+      "numeral": "XII",
+      "rank": "knight",
+      "webp": "assets/deck/pentacles-12-knight.webp",
+      "jpg": "assets/deck/pentacles-12-knight.jpg",
+      "upright": "Patient and reliable effort moves you forward, one useful step at a time.",
+      "reversed": "Habit or stubbornness may be keeping a plan from adapting.",
+      "source": {
+        "file": "Pents12.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents12.jpg"
+      }
+    },
+    {
+      "id": "pentacles-13-queen",
+      "index": 76,
+      "name": "Queen of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 13,
+      "numeral": "XIII",
+      "rank": "queen",
+      "webp": "assets/deck/pentacles-13-queen.webp",
+      "jpg": "assets/deck/pentacles-13-queen.jpg",
+      "upright": "Practical care and resourcefulness nurture both wellbeing and daily life.",
+      "reversed": "Restore balance between caring for others and caring for yourself.",
+      "source": {
+        "file": "Pents13.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents13.jpg"
+      }
+    },
+    {
+      "id": "pentacles-14-king",
+      "index": 77,
+      "name": "King of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 14,
+      "numeral": "XIV",
+      "rank": "king",
+      "webp": "assets/deck/pentacles-14-king.webp",
+      "jpg": "assets/deck/pentacles-14-king.jpg",
+      "upright": "Responsible stewardship and experience support lasting stability.",
+      "reversed": "Status or control may be crowding out generosity and sound priorities.",
+      "source": {
+        "file": "Pents14.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Pents14.jpg"
+      }
+    }
+  ]
+}
